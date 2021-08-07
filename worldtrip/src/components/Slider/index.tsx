@@ -46,7 +46,172 @@ export function Slider() {
                                     color="gray.300"
                                     fontSize={["0.8rem", "1xl", "2xl"]}
                                     mt={["2", "4"]}>
-                                    O continente
+                                    O continente mais antigo
+                                </Text>
+                            </a>
+                        </Link>
+                    </Flex>
+                </SwiperSlide>
+
+                <SwiperSlide>
+                    <Flex
+                        w="100%"
+                        h="100%"
+                        align="center"
+                        justify="center"
+                        direction="column"
+                        bgImage="url('/continentImage.svg')"
+                        bgPosition="100% 30%"
+                        bgRepeat="no-repeat"
+                        bgSize="cover"
+                        textAlign="center"
+                    >
+                        <Link href={`/continent/europe`}>
+                            <a>
+                                <Heading
+                                    fontSize={["3xl", "4xl", "5xl"]}
+                                    color="gray.100"
+                                    fontWeight="bold">
+                                    América do Norte
+                                </Heading>
+                                <Text
+                                    fontWeight="bold"
+                                    color="gray.300"
+                                    fontSize={["0.8rem", "1xl", "2xl"]}
+                                    mt={["2", "4"]}>
+                                   A América do Norte é um subcontinente.
+                                </Text>
+                            </a>
+                        </Link>
+                    </Flex>
+                </SwiperSlide>
+
+                <SwiperSlide>
+                    <Flex
+                        w="100%"
+                        h="100%"
+                        align="center"
+                        justify="center"
+                        direction="column"
+                        bgImage="url('/continentImage.svg')"
+                        bgPosition="100% 30%"
+                        bgRepeat="no-repeat"
+                        bgSize="cover"
+                        textAlign="center"
+                    >
+                        <Link href={`/continent/europe`}>
+                            <a>
+                                <Heading
+                                    fontSize={["3xl", "4xl", "5xl"]}
+                                    color="gray.100"
+                                    fontWeight="bold">
+                                    América do Sul
+                                </Heading>
+                                <Text
+                                    fontWeight="bold"
+                                    color="gray.300"
+                                    fontSize={["0.8rem", "1xl", "2xl"]}
+                                    mt={["2", "4"]}>
+                                    A América do Sul é um continente que compreende a porção meridional da América. 
+                                </Text>
+                            </a>
+                        </Link>
+                    </Flex>
+                </SwiperSlide>
+
+                <SwiperSlide>
+                    <Flex
+                        w="100%"
+                        h="100%"
+                        align="center"
+                        justify="center"
+                        direction="column"
+                        bgImage="url('/continentImage.svg')"
+                        bgPosition="100% 30%"
+                        bgRepeat="no-repeat"
+                        bgSize="cover"
+                        textAlign="center"
+                    >
+                        <Link href={`/continent/europe`}>
+                            <a>
+                                <Heading
+                                    fontSize={["3xl", "4xl", "5xl"]}
+                                    color="gray.100"
+                                    fontWeight="bold">
+                                    Ásia
+                                </Heading>
+                                <Text
+                                    fontWeight="bold"
+                                    color="gray.300"
+                                    fontSize={["0.8rem", "1xl", "2xl"]}
+                                    mt={["2", "4"]}>
+                                    A Ásia é o maior dos continentes, tanto em área como em população.
+                                </Text>
+                            </a>
+                        </Link>
+                    </Flex>
+                </SwiperSlide>
+
+                <SwiperSlide>
+                    <Flex
+                        w="100%"
+                        h="100%"
+                        align="center"
+                        justify="center"
+                        direction="column"
+                        bgImage="url('/continentImage.svg')"
+                        bgPosition="100% 30%"
+                        bgRepeat="no-repeat"
+                        bgSize="cover"
+                        textAlign="center"
+                    >
+                        <Link href={`/continent/europe`}>
+                            <a>
+                                <Heading
+                                    fontSize={["3xl", "4xl", "5xl"]}
+                                    color="gray.100"
+                                    fontWeight="bold">
+                                    África
+                                </Heading>
+                                <Text
+                                    fontWeight="bold"
+                                    color="gray.300"
+                                    fontSize={["0.8rem", "1xl", "2xl"]}
+                                    mt={["2", "4"]}>
+                                    A África é o terceiro continente mais extenso.
+                                </Text>
+                            </a>
+                        </Link>
+                    </Flex>
+                </SwiperSlide>
+
+                <SwiperSlide>
+                    <Flex
+                        w="100%"
+                        h="100%"
+                        align="center"
+                        justify="center"
+                        direction="column"
+                        bgImage="url('/continentImage.svg')"
+                        bgPosition="100% 30%"
+                        bgRepeat="no-repeat"
+                        bgSize="cover"
+                        textAlign="center"
+                    >
+                        <Link href={`/continent/europe`}>
+                            <a>
+                                <Heading
+                                    fontSize={["3xl", "4xl", "5xl"]}
+                                    color="gray.100"
+                                    fontWeight="bold">
+                                    Oceania
+                                </Heading>
+                                <Text
+                                    fontWeight="bold"
+                                    color="gray.300"
+                                    fontSize={["0.8rem", "1xl", "2xl"]}
+                                    mt={["2", "4"]}>
+                                    A Oceania tem uma área de 8.525.989 quilômetros quadrados.
                                 </Text>
                             </a>
                         </Link>

@@ -2,7 +2,7 @@ import { Flex, Heading, Icon, Popover, PopoverArrow, PopoverBody, PopoverCloseBu
 
 import { RiInformationLine } from "react-icons/ri";
 
-export default function Infos() {
+export function Infos() {
   return (
     <Flex alignItems="center" justifyContent="space-between">
     <Flex direction="column" justify="center" align={["flex-start","flex-start", "center"]}>
@@ -39,7 +39,7 @@ export default function Infos() {
             <PopoverContent bg="gray.700" color="yellow.400">
               <PopoverArrow bg="gray.700"/>
               <PopoverCloseButton />
-              <PopoverBody fontWeight="400" fontSize="lg">Paris, Europa, Chile, Canadá e china</PopoverBody>
+              <PopoverBody fontWeight="400" fontSize="lg">Paris, Europa, Chile, Canadá, china e entre outros...</PopoverBody>
             </PopoverContent>
           </Popover>
 
